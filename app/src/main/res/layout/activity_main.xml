@@ -18,8 +18,40 @@
         android:text="@string/greeting" />
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Click me!" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/centered_text"/>
+        <include layout="@layout/centered_text"/>
+        <include layout="@layout/centered_text"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Text!!"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Text!!"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Text!!"
+            />
+    </LinearLayout>
+    <include layout="@layout/image_content"/>
 
 </LinearLayout>
